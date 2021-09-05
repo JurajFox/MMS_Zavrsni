@@ -1,13 +1,13 @@
 .header {
   position: absolute;
-  height: 26rem;
-  min-height: 26rem;
+  height: 28rem;
+  min-height: 28rem;
   width: 100%;
 }
 header {
   position: absolute;
-  height: 26rem;
-  min-height: 26rem;
+  height: 28rem;
+  min-height: 28rem;
   width: 100%;
   overflow: hidden;
 }
@@ -97,28 +97,7 @@ video {
   border-bottom-left-radius: 200px;
   border-bottom-right-radius: 200px;
 }
-.container {
-  text-align: center;
-  padding-bottom: 500px;
-  background-color: white;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  position: relative;
-  z-index: 1;
-}
-.footer {
-  text-align: center;
-  padding-bottom: 200px;
-  background-color: rgba(255, 51, 0, 0.349);
-}
-.usluge {
-  position: relative;
-  text-align: center;
 
-  padding-bottom: 300px;
-  background-color: rgba(255, 51, 0, 0.384);
-  bottom: -5vh;
-}
 .row {
   padding-top: 100px;
 }
