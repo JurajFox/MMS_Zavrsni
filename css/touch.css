@@ -92,8 +92,9 @@ video {
 
 .sep {
   padding-top: 800px;
-  border-bottom-left-radius: 200px;
-  border-bottom-right-radius: 200px;
+}
+.sep2 {
+  padding-top: 400px;
 }
 
 .row {
@@ -139,7 +140,7 @@ body {
 }
 .jumbotron {
   background-color: #707070ab;
-  padding-top: 250px;
+  padding-top: 200px;
   text-align: center;
   border-bottom-right-radius: 100px;
 }
@@ -150,11 +151,11 @@ body {
   color: ivory;
 }
 .naslovi {
-  font-size: 80px;
+  font-size: 70px;
   color: ivory;
 }
 .naslovi2 {
-  font-size: 80px;
+  font-size: 70px;
   color: #707070ab;
 }
 .usluge {
