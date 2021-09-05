@@ -155,3 +155,14 @@ body {
   font-size: 80px;
   color: ivory;
 }
+.usluge {
+  padding-bottom: 100px;
+  background-color: #707070ab;
+  text-align: center;
+}
+.usluge-imgs {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
