@@ -1,5 +1,4 @@
 .header {
-  position: absolute;
   height: 28rem;
   min-height: 28rem;
   width: 100%;
@@ -57,8 +56,8 @@ video {
   top: 50%;
   left: 50%;
   object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -70,7 +69,7 @@ video {
 .video-container {
   z-index: -100;
   width: 100%;
-  height: 50%;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   display: block;
@@ -88,13 +87,6 @@ video {
   background-color: black;
   opacity: 0.5;
   z-index: 9;
-}
-
-.sep {
-  padding-top: 800px;
-}
-.sep2 {
-  padding-top: 400px;
 }
 
 .row {
@@ -152,42 +144,60 @@ body {
 }
 .naslovi {
   font-size: 70px;
-  color: ivory;
+  color: #707070ab;
 }
 .naslovi2 {
   font-size: 70px;
   color: #707070ab;
 }
+
 .usluge {
   padding-bottom: 100px;
-  background-color: rgba(255, 105, 5, 0.774);
+  padding-top: 200px;
+
   text-align: center;
-  border-bottom-left-radius: 200px;
-  background-image: url("../images/bcg.png");
-  background-size: cover;
+
+  border-top-right-radius: 100px;
 }
 .reference {
-  padding-bottom: 500px;
-  background-color: white;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../images/bcg2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .usluge-imgs {
   width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
+  border: 10px solid #707070ab;
 }
 .footer {
   padding-bottom: 400px;
-  background-color: #707070ab;
+
   text-align: center;
 
-  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
 }
-#myCarousel img{
-    
-  width:300px;
-  height:300px;
-object-fit:cover;
-  border-radius:50%;
+#myCarousel img {
+  width: 100%;
+  height: 100%;
+
+  border: 15px double #707070ab;
+}
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+}
+.carousel {
+  width: 400px;
+  height: 400px;
+  background-color: ivory;
 }
