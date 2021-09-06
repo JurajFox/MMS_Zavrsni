@@ -1,5 +1,4 @@
 .header {
-  position: absolute;
   height: 28rem;
   min-height: 28rem;
   width: 100%;
@@ -57,8 +56,8 @@ video {
   top: 50%;
   left: 50%;
   object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -70,7 +69,7 @@ video {
 .video-container {
   z-index: -100;
   width: 100%;
-  height: 50%;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   display: block;
@@ -88,12 +87,6 @@ video {
   background-color: black;
   opacity: 0.5;
   z-index: 9;
-}
-
-.sep {
-  padding-top: 800px;
-  border-bottom-left-radius: 200px;
-  border-bottom-right-radius: 200px;
 }
 
 .row {
@@ -139,7 +132,7 @@ body {
 }
 .jumbotron {
   background-color: #707070ab;
-  padding-top: 250px;
+  padding-top: 200px;
   text-align: center;
   border-bottom-right-radius: 100px;
 }
@@ -150,43 +143,94 @@ body {
   color: ivory;
 }
 .naslovi {
-  font-size: 80px;
-  color: ivory;
+  font-size: 70px;
+  color: #707070ab;
 }
 .naslovi2 {
   font-size: 80px;
-  color: #707070ab;
+  color: black;
+  font-weight: lighter;
 }
+.naslov3 {
+  height: 400px;
+}
+
 .usluge {
-  padding-bottom: 100px;
-  background-color: rgba(255, 105, 5, 0.774);
-  text-align: center;
-  border-bottom-left-radius: 200px;
-  background-image: url("../images/bcg.png");
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-image: url("../images/bcg1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+
+  text-align: center;
+
+  border-top-right-radius: 100px;
 }
 .reference {
-  padding-bottom: 500px;
-  background-color: white;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../images/bcg3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 .usluge-imgs {
   width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
+  border: 10px solid #707070ab;
 }
 .footer {
   padding-bottom: 400px;
-  background-color: #707070ab;
+
   text-align: center;
 
-  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
 }
-#myCarousel img{
-    
-  width:300px;
-  height:300px;
-object-fit:cover;
-  border-radius:50%;
+#myCarousel img {
+  width: 100%;
+  height: 100%;
+
+  border: 15px double #707070ab;
+}
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+}
+.carousel {
+  width: 400px;
+  height: 400px;
+  background-color: ivory;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sadržaj {
+  background-image: url("../images/bcg1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.footer {
+  height: 400px;
 }
